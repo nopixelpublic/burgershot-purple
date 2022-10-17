@@ -23,6 +23,11 @@ const Menu = {
 		emoji: '🏃',
 		items: ["Fries", "Fries", "Rimjob", "Rimjob", "Soda"],
 	},
+	"Happy Ending": {
+		price: 245,
+		emoji: '🏃',
+		items: ["Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Cream Pie", "Cream Pie", "Cream Pie", "Cream Pie", "Cream Pie", "Cream Pie"],
+	},
 	"Sugar Rush": {
 		price: 123,
 		emoji: '🍬',
@@ -153,7 +158,7 @@ const Menu = {
 	"Murder Meal": {
 		max: 4,
 		fileRenameException: true,
-		price: 250,
+		price: 350,
 		noDiscount: true,
 		items: ["Murder Meal"],
 	},
@@ -162,7 +167,7 @@ const Menu = {
 		items: ["Heartstopper", "Fries", "Soda"],
 	},
 	"Money Shot Meal": {
-		price:375,
+		price:500,
 		items: ["Money Shot", "Fries", "Soda"],
 	},
 	"Torpedo Meal": {
@@ -170,11 +175,11 @@ const Menu = {
 		items: ["Torpedo", "Fries", "Soda"],
 	},
 	"Bleeder Meal": {
-		price: 170,
+		price: 400,
 		items: ["Bleeder", "Fries", "Soda"],
 	},
 	"Meat Free Meal": {
-		price: 160,
+		price: 350,
 		items: ["Meat Free", "Fries", "Soda"],
 	},
 	// Individual Items:
@@ -182,23 +187,23 @@ const Menu = {
 		header: true,
 	},
 	"Heartstopper": {
-		price: 75,
+		price: 150,
 		items: ["Heartstopper"],
 	},
 	"Money Shot": {
-		price: 300,
+		price: 200,
 		items: ["Money Shot"],
 	},
 	"Torpedo": {
-		price: 70,
+		price: 150,
 		items: ["Torpedo"],
 	},
 	"Bleeder": {
-		price: 70,
+		price: 150,
 		items: ["Bleeder"],
 	},
 	"Meat Free": {
-		price: 65,
+		price: 150,
 		items: ["Meat Free"],
 	},
 	"Water": {
@@ -206,27 +211,27 @@ const Menu = {
 		items: ["Water"],
 	},
 	"Soda": {
-		price: 45,
+		price: 50,
 		items: ["Soda"]
 	},
 	"Milkshake": {
-		price: 48,
+		price: 75,
 		items: ["Milkshake"],
 	},
 	"Fries": {
-		price: 55,
+		price: 75,
 		items: ["Fries"],
 	},
 	"Rimjob": {
-		price: 45,
+		price: 75,
 		items: ["Rimjob"],
 	},
 	"Cream Pie": {
-		price: 33,
+		price: 75,
 		items: ["Cream Pie"],
 	},
 	"Toy": {
-		price: 202,
+		price: 100,
 		max: 10,
 		noDiscount: true,
 		lastItem: false,
@@ -247,33 +252,26 @@ const Menu = {
 	   items: ["Salad"],
    },
 	"Orange Juice": {
-	   price: 45,
+	   price: 50,
 	   max: 5,
 	   noDiscount: false,
 	   lastItem: false,
 	   items: ["Orange Juice"],
    },
    "Lemonade": {
-	  price: 45,
+	  price: 75,
 	  max: 5,
 	  noDiscount: false,
 	  lastItem: false,
 	  items: ["Orange Juice"],
   },
   "Lucky Rings": {
-	 price: 55,
+	 price: 100,
 	 max: 5,
 	 noDiscount: false,
 	 lastItem: false,
 	 items: ["Lucky Rings"],
- },
- "BurgerBits": {
-	price: 75,
-	max: 5,
-	noDiscount: false,
-	lastItem: false,
-	items: ["BurgerBits"],
-}//,
+ }//,
 //"10 Pack BurgerBits": {
  //  price: 1375,
  //  max: 1,
@@ -284,7 +282,7 @@ const Menu = {
 };
 const INDIVIDUAL_ITEMS = [
 	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
-	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings", "BurgerBits", "10 Pack BurgerBits"
+	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy", "Bloody Fingers", "Salad", "Orange Juice", "Lemonade", "Lucky Rings"
 ];
 
 const buttons = {
